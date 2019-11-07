@@ -1,0 +1,99 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');* {
+margin: 0;
+padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+  background-color: #236bde;
+ font-family: 'Merienda', cursive;
+}
+
+.menu {
+  margin-top: 4vh;
+  margin-left: 8vh;
+}
+
+.menu li {
+  float: left;
+  padding-right: 30px;
+  font-size: 1.6em;
+  color: #fa1e43;
+  list-style-type: none;
+  font-family: 'Cardo', serif;
+
+}
+
+.menu li a {
+color: #fa1e43;
+text-decoration: none;
+}
+.menu li a:hover {
+  color:#7CFC00	;
+  transition: 0.5s;
+  text-decoration: underline;
+}
+
+#title {
+margin-top: 5vh;
+margin-bottom:3vh;
+color:#ebf6f7;
+font-family: 'Playfair Display', serif;
+}
+
+
+h1, p {
+  text-align: center;
+}
+p {
+  font-size: 1.2em;
+}
+
+.portfolio {
+    width:50%;
+  }
+.imgdes {
+  color:#8A96A6;background-color:#ddd; width:20%;">
+font-family: 'Cinzel', serif;
+  }
+
+
+.description {
+  width:50%;
+}
+
+footer {
+background-color:#d5ff00;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color:#f63e1d;
+  text-decoration: underline;
+}
+
+#link {
+  text-decoration: underline;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 5px;
+  background-color: red;
+  borders: blue solid2px;
