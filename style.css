@@ -4,7 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
-@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');* {
+@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Sirin+Stencil&display=swap');
+
+
+* {
 margin: 0;
 padding: 0;
 }
@@ -16,7 +21,7 @@ body{
 }
 
 .menu {
-  margin-top: 4vh;
+  margin-top: 5vh;
   margin-left: 8vh;
 }
 
@@ -35,7 +40,7 @@ color: #ff0066;
 text-decoration: none;
 }
 .menu li a:hover {
-  color:#7CFC00	;
+  color:#7CFC00;
   transition: 0.5s;
   text-decoration: underline;
 }
@@ -44,7 +49,8 @@ text-decoration: none;
 margin-top: 5vh;
 margin-bottom:3vh;
 color:#ebf6f7;
-font-family: 'Playfair Display', serif;
+font-family: 'Sirin Stencil', cursive;
+font-size: 2.4em;
 }
 
 
@@ -52,7 +58,7 @@ h1, p {
   text-align: center;
 }
 p {
-  font-size: 1.2em;
+  font-size: 1.02em;
 }
 
 .portfolio {
@@ -93,7 +99,7 @@ footer {
 }
 
 button {
-  font-size: 1.5em;
-  padding: 5px;
+  font-size: 1.4em;
+  padding: 7px;
   background-color: red;
   borders: blue solid2px;
